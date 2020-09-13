@@ -1,7 +1,22 @@
 body
 {
-    color: deepskyblue;
+    color: #333;
     text-align: center;
     font-family: "Arial";
+    font-size: 16px;
+}
+
+#contenedor
+{
+      width: 70%;
+      padding: 1em;
+      text-align: left;
+      border: 6xp solid rgb(49, 156, 85);
+      margin: 0 auto;
+}
+
+#contenedor, h1
+{
+    font-size: 25px;
 
 }
