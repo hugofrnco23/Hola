@@ -9,7 +9,7 @@ body
 #contenedor
 {
       width: 70%;
-      padding: 1em;
+      padding: 0;
       text-align: left;
       border: 6xp solid rgb(49, 156, 85);
       margin: 0 auto;
@@ -18,5 +18,29 @@ body
 #contenedor, h1
 {
     font-size: 25px;
+
+}
+
+#cabecera
+{
+    background: #33a;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagible
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+
+}
+
+#post
+{
+    padding: 1em;
 
 }
